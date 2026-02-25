@@ -2,7 +2,7 @@ import { useState, useContext } from "react";
 import { DiaryStateContext } from "../App";
 import Header from "../components/Header";
 import Button from "../components/Button";
-import DiaryList from "../components/Diarylist";
+import DiaryList from "../components/DiaryList";
 import usePageTitle from "../hooks/usePageTitle";
 const getMonthlyData = (pivotDate, data) => {
   //해당하는 연월의 1일에 0시0분0초
