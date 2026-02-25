@@ -18,7 +18,7 @@ const useDiary = (id) => {
       window.alert("존재하지 않는 일기입니다.");
       nav("/", { replace: true });
     }
-    // 찾은 일기를 Editor 초기값으로 사용한다.
+    // 찾은 일기를 초기값으로 사용한다.
     setCurDiaryItem(currentDiaryItem);
   }, [id]);
 
